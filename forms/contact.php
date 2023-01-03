@@ -25,12 +25,12 @@
 
   // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
   
-  $contact->smtp = array(
-    'host' => 'hostinger.com',
-    'username' => 'desire learner',
-    'password' => '08066456406',
+/*$contact->smtp = array(
+    'host' => '',
+    'username' => '',
+    'password' => '',
     'port' => '587'
-  );
+  );*/
   
 
   $contact->add_message( $_POST['name'], 'From');
